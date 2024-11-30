@@ -1,0 +1,22 @@
+.review .review-title {
+  display: flex;
+  font-size: 20px;
+  font-weight: 600;
+  height: 60px;
+  line-height: 60px;
+  padding-left: 1rem;
+}
+.review .review-content {
+  padding: 0px 1rem;
+}
+.add-review-product {
+  display: flex;
+  background-color: #4e74df;
+  text-decoration: none;
+  padding: 10px 14px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 14px;
+  border: none;
+  margin-top: 20px;
+}

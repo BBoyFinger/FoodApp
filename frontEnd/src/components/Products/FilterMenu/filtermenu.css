@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+}
+
+.filter-menu {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filter-menu-item {
+  margin-right: 1rem;
+}
+
+.filter-menu-item-name {
+  border: 1px solid #eee;
+  cursor: pointer;
+  border-radius: 6px;
+  background: #e5eaef;
+  font-size: 14px;
+  height: 40px;
+  width: 100%;
+  padding: 0 10px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.filter-menu-item-name.active {
+  border: 1px solid #9AD0C2;
+  color: #9AD0C2;
+}
+
+.filter-menu-item-name span {
+  font-size: 14px;
+}
+
+.filter-menu-item-name .anticon {
+  margin-left: 0.3rem;
+}
+
+.filter-menu-item-name:hover {
+  border: 1px solid #9AD0C2;
+  transition: 0.3s;
+}
+
+.filter-menu-item-name:hover span {
+  color: #9AD0C2;
+  transition: 0.3s;
+}
+
+.menu-show {
+  position: relative;
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 4px;
+  max-width: 620px;
+  min-width: 382px;
+  box-shadow: 0 2px 20px rgb(0 0 0 / 50%);
+  padding: 0.5rem 0.7rem;
+}
+
+.menu-show-list {
+  display: flex;
+}
+
+.menu-show-item {
+  border: 1px solid #eee;
+  padding: 0.3rem 0.5rem;
+  margin-left: 0.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.menu-show-item.active {
+  background: #9AD0C2;
+  color: white;
+}
+
+.menu-show-item:hover {
+  color: #9AD0C2;
+  border: 1px solid #9AD0C2;
+  background-color: #fff5f5;
+}
+
+.menu-show-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+
+.menu-show-btn button {
+  border: none;
+  outline: none;
+  padding: 0.3rem 0.5rem;
+  background: #fff;
+
+  cursor: pointer;
+}
+
+.menu-show-btn .cancel {
+  border: 1px solid #2D9596;
+  color: #2D9596;
+  border-radius: 6px;
+  padding: 6px 14px;
+}
+.menu-show-btn .update {
+  border: 1px solid #4e74df;
+  color: #4e74df;
+  border-radius: 6px;
+  padding: 6px 14px;
+  margin: 0 10px;
+}
+.filter-menu-firm {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.filter-menu-firm-item {
+  position: relative;
+  margin-right: 10px;
+  border-radius: 18px;
+  border: 1px solid #eee;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 110px;
+  overflow: hidden;
+  height: 45px;
+}
+
+.filter-menu-firm-item.active {
+  border: 1px solid #2D9596;
+}
+
+.filter-menu-firm-item img {
+  width: auto;
+  height: 100%;
+}

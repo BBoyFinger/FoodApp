@@ -1,0 +1,36 @@
+.sort-price {
+  position: relative;
+}
+
+.sort-price-list {
+  display: flex;
+  margin-top: 10px;
+}
+
+.sort-price-list-item {
+  align-items: center;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  color: #444;
+  cursor: pointer;
+  display: flex;
+  font-size: 12px;
+  height: 34px;
+  margin: 0 10px 10px 0;
+  padding: 3px 10px;
+  white-space: nowrap;
+  background: #e5eaef;
+}
+.sort-price-list-item.active {
+  background: #fef2f2;
+  border: 1px solid #d70018;
+  color: #d70018;
+}
+/* .sort-price-list-item:hover span {
+  color: #d70018;
+  transition: 0.3s;
+} */
+.sort-price-title {
+  font-weight: 600;
+  color: #4a4a4a;
+}

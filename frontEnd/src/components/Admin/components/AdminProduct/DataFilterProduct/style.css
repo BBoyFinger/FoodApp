@@ -1,0 +1,211 @@
+.update-filter {
+  width: 600px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.update-filter .filter-menu {
+  background: white;
+  padding: 0.5rem 1rem;
+}
+
+.update-filter .filter-menu-item-name:hover {
+  border: 1px solid #4e74df;
+}
+
+.update-filter .filter-menu-item-name:hover span {
+  color: #4e74df;
+}
+
+.update-filter-title {
+  display: flex;
+  padding: 1rem;
+  padding-left: 0px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.update-filter-info {
+  background: #fff;
+  padding: 1rem;
+  margin-bottom: 30px;
+}
+.update-filter-info label {
+  margin-bottom: 6px;
+  font-size: 16px;
+}
+
+.update-filter-info > span {
+  display: flex;
+  margin-bottom: 1rem;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.update-filter-info form {
+  display: flex;
+  flex-direction: column;
+}
+
+.update-filter-info form button {
+  background: #4e74df;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 16px;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  outline: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.update-filter-info form input {
+  margin-bottom: 1rem;
+  padding: 10px;
+  font-size: 14px;
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid #6b6b6b;
+  border: 1px solid #d4d6db;
+  outline: none;
+}
+
+.update-filter-info form > span {
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 14px;
+  width: 200px;
+  border-radius: 10px;
+  text-align: center;
+  background: #04800e;
+  color: #ffffff;
+  cursor: pointer;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+
+.option-list-item {
+  position: relative;
+}
+
+.option-list-item span {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-95%);
+  font-size: 15px;
+
+  cursor: pointer;
+}
+
+/* --------- create type product */
+.create-type {
+  background: #fff;
+  padding: 1rem;
+}
+
+.create-type > span {
+  display: flex;
+  margin-bottom: 1rem;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.create-type form {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-type form button {
+  background: #4e74df;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 16px;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  outline: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.create-type form input {
+  margin-bottom: 1rem;
+  padding: 10px;
+  font-size: 14px;
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid #d4d6db;
+  outline: none;
+}
+
+.filter-menu-firm-item-delete {
+  position: absolute;
+  top: 0;
+  right: -10px;
+  width: 20px;
+  height: 20px;
+  color: white;
+  background: #4e74df;
+  border-radius: 50%;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.icon-close {
+  margin: 0px auto;
+}
+
+.update-filter .filter-menu-firm {
+  background: white;
+  padding: 1rem 1rem 0 1rem;
+}
+
+/* -------------- update select  */
+.form-update-select {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-update-select button {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  border-radius: 20px;
+
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  color: white;
+  background: #4e74df;
+}
+
+.form-update-select input {
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 14px;
+  width: 90%;
+}
+
+.form-update-select > span {
+  border: 1px solid gray;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 14px;
+  width: 100%;
+
+  cursor: pointer;
+}
+
+.form-update-select .option-list-item {
+  position: relative;
+}
+
+.form-update-select .option-list-item span {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-95%);
+  font-size: 15px;
+
+  cursor: pointer;
+}

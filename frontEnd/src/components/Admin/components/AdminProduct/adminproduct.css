@@ -1,0 +1,174 @@
+.admin-product .add-product {
+  display: flex;
+  background-color: #4e74df;
+  text-decoration: none;
+  padding: 8px 14px;
+  margin-left: 20px;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.admin-product .add-product span {
+  font-size: 35px;
+}
+
+.admin-product .add-product span:hover {
+  color: #4e74df;
+  transition: 0.3s;
+}
+
+.admin-product-link {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 1rem;
+}
+
+.admin-product span {
+  display: flex;
+  padding: 1rem;
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+}
+
+.admin-product-list {
+  background: white;
+  margin: 0 1rem 0 1rem;
+  color: #6b6b6b;
+  padding: 1rem;
+
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.admin-product-list table {
+  width: 100%;
+  text-align: left;
+  padding: 1rem;
+}
+
+.admin-product-list table th {
+  font-size: 18px;
+  font-weight: 600;
+  background: #f9f9f9;
+  padding: 10px;
+  color: #000;
+  font-size: 16px;
+}
+
+.admin-product-list table td {
+  padding: 10px;
+  font-size: 16px;
+  color: #000;
+  font-size: 14px;
+}
+
+.admin-product-list table td img {
+  width: 100px;
+}
+
+.admin-product-list tr .delete-product,
+.admin-product-list tr .update-product,
+.review-product {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 0;
+}
+
+.admin-product-list tr .delete-product span,
+.admin-product-list tr .update-product span {
+  border-radius: 50%;
+}
+
+.admin-product-list tr .delete-product:hover span {
+  background: rgb(223, 28, 28);
+  transition: 0.3s;
+}
+
+.admin-product-list tr .update-product:hover span {
+  background: #4e74df;
+  transition: 0.3s;
+}
+
+.admin-product-list tr .delete-product:hover span,
+.admin-product-list tr .update-product:hover span {
+  color: white;
+}
+
+.admin-product-list .pagination {
+  padding: 1rem 0;
+}
+
+.admin-product-list .pagination span {
+  display: block;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 0;
+}
+
+/* ----- create product */
+.admin-create {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.admin-create label {
+  font-size: 16px;
+  margin-bottom: 6px;
+  display: inline-block;
+}
+.admin-create > span {
+  display: flex;
+  padding: 1rem;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.admin-create-product {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  margin: 0rem 0.5rem 1rem 1rem;
+  padding: 1rem;
+}
+.input-mid {
+  width: 250px;
+}
+.input-large {
+  min-width: 300px;
+}
+.admin-create-product input,
+select {
+  margin-bottom: 1rem;
+  padding: 10px;
+  font-size: 14px;
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid #6b6b6b;
+  border: 1px solid #d4d6db;
+  outline: none;
+}
+
+.select-type {
+  margin-bottom: 1rem;
+}
+
+.admin-create-product button {
+  background: #4e74df;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 16px;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  outline: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.admin-create-product .filter-menu-firm {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
